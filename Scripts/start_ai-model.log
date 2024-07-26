@@ -1,0 +1,17 @@
+nohup: ignoring input
+/home/ec2-user/ai/lib/python3.7/site-packages/pandas/compat/__init__.py:124: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+/home/ec2-user/ai/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.ensemble.forest module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.ensemble. Anything that cannot be imported from sklearn.ensemble is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/ec2-user/ai/lib/python3.7/site-packages/sklearn/utils/deprecation.py:144: FutureWarning: The sklearn.tree.tree module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.tree. Anything that cannot be imported from sklearn.tree is now part of the private API.
+  warnings.warn(message, FutureWarning)
+/home/ec2-user/ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator DecisionTreeRegressor from version 0.20.1 when using version 0.22. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+/home/ec2-user/ai/lib/python3.7/site-packages/sklearn/base.py:318: UserWarning: Trying to unpickle estimator RandomForestRegressor from version 0.20.1 when using version 0.22. This might lead to breaking code or invalid results. Use at your own risk.
+  UserWarning)
+INFO:     Started server process [6776]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[ WARN:0@285.019] global loadsave.cpp:241 findDecoder imread_('path/to/image'): can't open/read file: check file path/integrity
+INFO:     127.0.0.1:42098 - "POST /predict/ HTTP/1.1" 500 Internal Server Error
